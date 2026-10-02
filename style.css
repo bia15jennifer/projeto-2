@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(223, 143, 255);
+    color: rgb(0, 0, 0);
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: rgb(160, 80, 207);
+    padding: 30px;
+    text-align: center;
+}
+header h1{
+margin: 0%;
+font-size: 40px;
+color: rgb(217, 186, 247);
+}
+headerp{
+    color: rgb(129, 19, 231);
+    font-size: 20px;
+}
+
+main{
+    max-width: 700px;
+    margin: 30px;
+    padding: 0% 20px;
+}
+.top-item{
+    display: flex;
+    align-items: center;
+    background-color: rgb(152, 47, 250);
+border-radius: 10px;
+padding: 15px 20px;
+margin-bottom: 15px;
+box-shadow: 0 2px 8px rgb(191, 171, 211);
+gap: 15px;
+transition: transforma 0.3s ease, box-shadow 0.3s ease;
+}
