@@ -36,3 +36,44 @@ box-shadow: 0 2px 8px rgb(191, 171, 211);
 gap: 15px;
 transition: transforma 0.3s ease, box-shadow 0.3s ease;
 }
+
+.top-item:hover{
+    transform scale (1.05);
+    box-shadow: 0 0 20 black;
+}
+ .top-item .posicao{
+    font-zise: 30px;
+    font-weight: bold;
+    color:rgb(167, 86, 233);
+    width: 40px;
+ }
+  
+.top-item img{
+    width: 70px;
+    heigth:70px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+ .top-item .info h2{
+    margin: 0 0 10px 0;
+    font-size: 14px;
+ }
+
+ .top-item .infop{
+    margin: 0 0 10px 0;
+    color: azure;
+    font-size: 14px;
+ }
+
+ .botao-site{
+    display: inline-block;
+    background-color: brown;
+    color: antiquewhite;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration:none;
+    cursor: pointer;
+ }
